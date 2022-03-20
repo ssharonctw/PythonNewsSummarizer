@@ -13,9 +13,9 @@ A python script that summarizes news using NLP algorithms (Extraction Summarize)
 - The actual news body will be extracted from soup using regex and html tag matching
 - Gensim will tokenize and summarize the news body based on text rank algorithms using Gensim
 - 3 Output is expected:
-    1. Summary using word count as summary threshold (133 words)
-[kw](doc/demo-summaryKWLimit.JPG)
-    2. Summary using ratio-to-origin as summary threshold (181 words)
-[ratio](doc/demo-summaryRatioLimit.JPG)
-    3. A list of keywords identified
-[kwlist](doc/demo-keywordSet.JPG) 
+    - Summary using word count as summary threshold (133 words)
+    - ![kw](doc/demo-summaryKWLimit.JPG)
+    - Summary using ratio-to-origin as summary threshold (181 words)
+    - ![ratio](doc/demo-summaryRatioLimit.JPG)
+    - A list of keywords identified
+    - ![kwlist](doc/demo-keywordSet.JPG) 
