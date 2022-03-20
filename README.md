@@ -5,7 +5,8 @@ A python script that summarizes news using NLP algorithms (Extraction Summarize)
 - Fetch News from URL and filter out news contenct (plain text) using beautifulSoup and regex matching
 - Generate summary and keyword sets from plain text using NLP algorithms powered by Gensim
 
-# Project Demo ( [Example News](https://www.bbc.com/news/technology-60780142) , consisting of 981 words)
+# Project Demo 
+### [Example News Used](https://www.bbc.com/news/technology-60780142) (consisting of 981 words)
 - User input url of news to be summarized
     - ![terminal](doc/demo-terminal.JPG)
 - Program will fetch the body content from the url using GET method and stored in soup
@@ -14,7 +15,7 @@ A python script that summarizes news using NLP algorithms (Extraction Summarize)
 - 3 Output is expected:
     1. Summary using word count as summary threshold (133 words)
       - ![kw](doc/demo-summaryKWLimit.JPG)
-    3. Summary using ratio-to-origin as summary threshold (181 words)
+    2. Summary using ratio-to-origin as summary threshold (181 words)
       - ![ratio](doc/demo-summaryRatioLimit.JPG)
-    5. A list of keywords identified
+    3. A list of keywords identified
       - ![kwlist](doc/demo-keywordSet.JPG) 
